@@ -35,19 +35,18 @@ This project includes:
 - Predictive modelling (classification models for podium probability)
 - Interactive dashboard (Power BI/Tableau)
 
-
 ## 📂 Repository Structure
- 
+```text
 README.md                → Portfolio documentation
 
-🏎️ F1_Podium_Probability_Analysis/
+🏎️F1_Podium_Probability_Analysis/
 │
 ├── dashboards/
 │   └── powerbi_dashboard.pbix
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── raw/              # Original Kaggle datasets
+│   └── processed/        # Cleaned & merged datasets
 │
 ├── notebooks/
 │   ├── 01_data_preparation.ipynb
@@ -61,5 +60,6 @@ README.md                → Portfolio documentation
 │   ├── modelling.py
 │   └── utils.py
 │
-├── README.md
-└── requirements.txt
+├── README.md             # Project documentation
+└── requirements.txt      # Python dependencies
+```
