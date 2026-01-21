@@ -40,13 +40,14 @@ This project includes:
  
 README.md                → Portfolio documentation
 
-🏎️ F1 Podium Probability Analysis/
+🏎️ F1_Podium_Probability_Analysis/
 │
-├── dashboards/          → Power BI / Tableau dashboards
+├── dashboards/
+│   └── powerbi_dashboard.pbix
 │
 ├── data/
-│   ├── raw/             → Original Kaggle datasets
-│   └── processed/       → Cleaned & merged datasets
+│   ├── raw/
+│   └── processed/
 │
 ├── notebooks/
 │   ├── 01_data_preparation.ipynb
@@ -60,5 +61,5 @@ README.md                → Portfolio documentation
 │   ├── modelling.py
 │   └── utils.py
 │
-├── README.md            → Project‑specific documentation
+├── README.md
 └── requirements.txt
